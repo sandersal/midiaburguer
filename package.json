@@ -1,6 +1,6 @@
 {
   "name": "vite_react_shadcn_ts",
-  "homepage": "https://sandersal.github.io/midiaburguer/",
+  "homepage": "https://midiaburguer.amplieseumkt.com.br",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,6 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "update": "git add . && git commit -m 'Atualização automática' && git push origin main && npm run deploy"
-}
 
   },
   "dependencies": {
