@@ -1,9 +1,23 @@
 import { motion } from "framer-motion";
 
+// 🔽 importe as imagens e vídeos locais
+import post1 from "@/assets/images/1.jpg";
+import post2 from "@/assets/images/2.jpg";
+import post3 from "@/assets/images/3.jpg";
+import post4 from "@/assets/images/4.jpg";
+import post5 from "@/assets/images/5.jpg";
+import post6 from "@/assets/images/6.jpg";
+import post7 from "@/assets/images/7.jpg";
+import post8 from "@/assets/images/8.jpg";
+
+import reel1 from "@/assets/videos/9.mp4";
+import reel2 from "@/assets/videos/10.mp4";
+import story1 from "@/assets/videos/11.mp4";
+import story2 from "@/assets/videos/12.mp4";
+
 const Portfolio = () => {
-  // Placeholder images - in production these would be real portfolio pieces
-  const images = Array(8).fill("https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=800&fit=crop");
-  const videos = Array(4).fill("https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&h=711&fit=crop");
+  const images = [1, 2, 3, 4, 5, 6, 7, 8];
+  const videos = [9, 10, 11, 12];
 
   return (
     <section className="py-20 bg-muted/30">
@@ -20,7 +34,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        {/* Images Grid - 4x2 */}
+        {/* Imagens */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold mb-6 text-center">Posts & Artes</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
@@ -45,7 +59,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        {/* Videos Grid - 1x4 */}
+        {/* Vídeos */}
         <div>
           <h3 className="text-2xl font-bold mb-6 text-center">Reels & Stories</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
@@ -59,9 +73,12 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.05, zIndex: 10 }}
                 className="relative aspect-[9/16] rounded-xl overflow-hidden shadow-card hover:shadow-elevated transition-all duration-300 cursor-pointer"
               >
-                <img
+                <video
                   src={video}
-                  alt={`Video ${index + 1}`}
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
