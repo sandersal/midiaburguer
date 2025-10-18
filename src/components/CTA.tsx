@@ -77,7 +77,7 @@ const CTA = () => {
             className="text-5xl md:text-6xl font-bold mb-6"
           >
             Pronto para deixar seu perfil com{" "}
-            <span className="text-secondary">
+            <span className="text-primary">
               sabor profissional?
             </span>
           </motion.h2>

@@ -32,7 +32,7 @@ const Concept = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Conteúdos que{" "}
-            <span className="text-secondary">
+            <span className="text-primary">
               dão água na boca
             </span>
           </h2>

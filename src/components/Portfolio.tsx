@@ -25,7 +25,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Destaques <span className="text-secondary">Visuais</span>
+            Destaques <span className="text-primary">Visuais</span>
           </h2>
           <p className="text-xl text-muted-foreground">
             Conheça exemplos do nosso trabalho
