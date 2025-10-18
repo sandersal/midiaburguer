@@ -33,7 +33,7 @@ const PricingCard = ({
     const message = encodeURIComponent(
       `Olá! Gostaria de saber mais sobre o ${title}.`
     );
-    window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+    window.open(`https://wa.me/5593991872819?text=${message}`, "_blank");
   };
 
   return (
@@ -98,7 +98,7 @@ const PricingCard = ({
           onClick={handleWhatsAppClick}
           className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-6 rounded-xl shadow-glow hover:shadow-elevated transition-all duration-300 hover:scale-105"
         >
-          Solicitar Orçamento
+          ESCOLHER PACOTE
         </Button>
       </div>
     </motion.div>

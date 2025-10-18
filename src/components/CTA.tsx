@@ -7,7 +7,7 @@ const CTA = () => {
     const message = encodeURIComponent(
       "Olá! Gostaria de receber um orçamento personalizado para gestão de redes sociais."
     );
-    window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+    window.open(`https://wa.me/5593991872819?text=${message}`, "_blank");
   };
 
   return (
@@ -89,7 +89,7 @@ const CTA = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-12"
           >
-            Solicite seu orçamento e receba uma proposta personalizada
+            Selecione seu pacote acima e fale direto conosco.
           </motion.p>
 
           <motion.div
