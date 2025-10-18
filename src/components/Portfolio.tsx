@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Destaques{" "}
-            <span className="gradient-fire bg-clip-text text-transparent">
+            <span className="text-secondary">
               Visuais
             </span>
           </h2>

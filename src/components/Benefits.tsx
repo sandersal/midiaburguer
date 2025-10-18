@@ -41,7 +41,7 @@ const Benefits = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Por que escolher{" "}
-            <span className="gradient-fire bg-clip-text text-transparent">
+            <span className="text-secondary">
               nossos serviços?
             </span>
           </h2>

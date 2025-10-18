@@ -57,7 +57,7 @@ const Pricing = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Escolha o{" "}
-            <span className="gradient-fire bg-clip-text text-transparent">
+            <span className="text-secondary">
               Pacote Perfeito
             </span>
           </h2>

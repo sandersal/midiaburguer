@@ -71,7 +71,7 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
           >
             Transforme seu perfil em uma{" "}
-            <span className="gradient-fire bg-clip-text text-transparent">
+            <span className="text-secondary">
               vitrine irresistível!
             </span>
           </motion.h1>

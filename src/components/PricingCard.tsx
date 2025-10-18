@@ -63,7 +63,7 @@ const PricingCard = ({
 
         {/* Price */}
         <div className="mb-8">
-          <span className="text-5xl font-bold gradient-fire bg-clip-text text-transparent">
+          <span className="text-5xl font-bold text-secondary">
             {price}
           </span>
           <span className="text-muted-foreground text-lg">/mês</span>
